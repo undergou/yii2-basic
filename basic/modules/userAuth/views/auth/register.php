@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>Please fill out the following fields to register:</p>
 
     <?php $form = ActiveForm::begin([
-        'id' => 'register',
+        'id' => 'regisster',
         'layout' => 'horizontal',
         'fieldConfig' => [
             'template' => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8\">{error}</div>",
@@ -28,13 +28,13 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]); ?>
 
-        <?= $form->field($model, 'username', ['inputOptions' => ['id' => 'register-username']])->textInput(['autofocus' => true]) ?>
+        <?= $form->field($model, 'username', ['inputOptions' => ['id' => 'registser-username']])->textInput(['autofocus' => true]) ?>
 
-        <?= $form->field($model, 'email', ['inputOptions' => ['id' => 'register-email']]) ?>
+        <?= $form->field($model, 'email', ['inputOptions' => ['id' => 'registser-email']]) ?>
 
-        <?= $form->field($model, 'displayname', ['inputOptions' => ['id' => 'register-displayname']]) ?>
+        <?= $form->field($model, 'displayname', ['inputOptions' => ['id' => 'registser-displayname']]) ?>
 
-        <?= $form->field($model, 'password', ['inputOptions' => ['id' => 'register-password']])->passwordInput() ?>
+        <?= $form->field($model, 'password', ['inputOptions' => ['id' => 'registser-password']])->passwordInput() ?>
 
         <div class="form-group">
             <div class="col-lg-offset-1 col-lg-11">
