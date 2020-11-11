@@ -15,7 +15,7 @@ $this->title = 'Sign Up';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-register">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>404<?= Html::encode($this->title) ?></h1>
 
     <p>Please fill out the following fields to register:</p>
 
